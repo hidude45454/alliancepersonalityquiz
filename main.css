@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #444;
+  color: #fff;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-top: 50px;
+  text-align: left;
+  display: inline-block;
+  width: 75%;
+}
+button{
+  position: relative;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 22px;
+  background-color: #279;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button:hover{
+  background-color: #38a;
+}
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.rightside {
+  text-align: right;
+  float: right;
+}
+.slidecontainer {
+  width: 100%;
+}
+.slider{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 75%; 
+  background: #04AA6D;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 75%;
+  background: #04AA6D;
+  cursor: pointer;
+}
+.flag {
+  width: 5%;
+  vertical-align: middle;
+}
+.allianceDescription {
+  vertical-align: middle;
+  margin-left: 10px;
+}
