@@ -26,6 +26,10 @@ h1{
   display: inline-block;
   width: 75%;
 }
+input{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 button{
   position: relative;
   font-family: 'Work Sans', sans-serif;
@@ -79,7 +83,7 @@ button:hover{
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
-.slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb{
   -webkit-appearance: none;
   appearance: none;
   width: 25px;
@@ -88,18 +92,27 @@ button:hover{
   background: #04AA6D;
   cursor: pointer;
 }
-.slider::-moz-range-thumb {
+.slider::-moz-range-thumb{
   width: 25px;
   height: 25px;
   border-radius: 75%;
   background: #04AA6D;
   cursor: pointer;
 }
-.flag {
-  width: 5%;
+.flag{
+  width: 100px;
   vertical-align: middle;
 }
-.allianceDescription {
+.allianceDescriptionWrapper{
+  margin: auto;
+  width: 60%;
+}
+.allianceDescription{
   vertical-align: middle;
   margin-left: 10px;
+}
+hr{
+  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
